@@ -1,20 +1,36 @@
+html {
+  height: 100%
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Lato', sans-serif;
-  height: 100vh
+  height: 100%
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 4em;
+  margin-top: 0;
   margin-bottom: 15px;
+  font-weight: 100;
 }
+
+h2 {
+  font-size: 2em;
+}
+
 h1, h2, a {
   text-align: center;
   text-decoration: none;
   color: black
+}
+
+img {
+  height: 100px;
+  margin: 2px 5px 2px 5px
 }
 
 .icons {
@@ -27,8 +43,4 @@ a:visited {
 
 a:hover {
   opacity: 0.6
-}
-
-.fa {
-  margin: 2px 5px 2px 5px;
 }
