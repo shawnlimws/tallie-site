@@ -73,7 +73,8 @@ a:hover {
 }
 
 .intro {
-  font-size: 2em
+  font-size: 2em;
+  font-weight: 800;
 }
 
 .familiar > img {
