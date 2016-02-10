@@ -5,7 +5,7 @@ function route () {
 )
   switch (window.location.pathname) {
     case '/about':
-      document.title = 'About Us'
+      document.title = 'About Me'
       document.querySelector('#about').style.display = 'flex'
       break
     case '/':
