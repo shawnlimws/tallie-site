@@ -5,11 +5,11 @@ function route () {
 )
   switch (window.location.pathname) {
     case '/about':
-      document.title = 'About Me'
+      document.title = 'About Me | Skills and Interest'
       document.querySelector('#about').style.display = 'flex'
       break
     case '/':
-      document.title = 'Shawn Lim'
+      document.title = 'Shawn Lim | Web Developer'
       document.querySelector('#home').style.display = 'flex'
   }
 }
