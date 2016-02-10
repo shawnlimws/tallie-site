@@ -69,7 +69,7 @@ a:hover {
   align-items: center;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  padding: 25px 30px 0px 30px;
+  padding: 25px 30px 50px 30px;
 }
 
 .intro {
@@ -77,6 +77,10 @@ a:hover {
 }
 
 .familiar > img {
-  margin: 0px 50px 50px 50px;
+  margin: 10px 50px 10px 50px;
   height: 75px
+}
+
+#about > h2 {
+  font-weight: bold;
 }
